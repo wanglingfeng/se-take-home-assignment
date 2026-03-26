@@ -6,7 +6,7 @@
 echo "Running CLI application..."
 
 # For Go projects:
-./order-controller > result.txt
+./order-controller | tee scripts/result.txt
 
 # For Node.js projects:
 # node index.js > result.txt
