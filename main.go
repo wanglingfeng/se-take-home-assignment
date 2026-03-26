@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-	fmt.Println(time.Now().Format("15:04:05"), "SE TAKE HOME CLI 开始")
+	fmt.Println(time.Now().Format("15:04:05"), "SE TAKE HOME CLI Start...")
 	// 创建订单
 	o1 := service.CreateOrder(1, 100, 12.5, false)
 	fmt.Println(time.Now().Format("15:04:05"), "Create Normal Order:", o1.OrderNo)

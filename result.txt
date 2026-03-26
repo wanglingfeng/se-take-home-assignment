@@ -1,0 +1,5 @@
+19:53:35 SE TAKE HOME CLI 开始
+19:53:35 Create Normal Order: 000001
+19:53:35 Create VIP Order: 000002
+19:53:35 Start Robot: 1
+19:53:45 Order Finished: 000002 User:2 Amount:88.80
