@@ -124,6 +124,8 @@ func robotLoop(robot *config.Robot) {
 		       config.OrdersFinished = append(config.OrdersFinished, order)
 		       robot.Working = false
 		       config.OrdersLock.Unlock()
+
+			   fmt.Printf("%s Order Finished: %s User:%d Amount:%.2f\n", time.Now().Format("15:04:05"), order.OrderNo, order.UserID, order.Amount)
 	       }
        }
 }
